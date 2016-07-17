@@ -1,0 +1,12 @@
+#!/bin/bash
+
+###
+# CHEAT: cheat.sh
+#
+# The main executable for cheat-bash. Has the following responsibilities:
+# 	1. Run update if needed.
+#	2. Display cheatsheet in man.
+###
+
+CHEATSHEET=$1
+man "$HOME/.cheat/$CHEATSHEET"

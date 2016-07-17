@@ -7,7 +7,8 @@ Inspired by https://github.com/chrisallenlane/cheat.
 ## Installation
 
 1. Create a repository containing markdown (.md) files (or use your own!).
-2. `bash "$(curl https://raw.githubusercontent.com/andrewjkerr/cheat-bash/master/install.sh)"``
+2. Make sure `pandoc` is installed!
+3. `bash "$(curl https://raw.githubusercontent.com/andrewjkerr/cheat-bash/master/install.sh)"``
 
 ## Example Cheatsheets
 
